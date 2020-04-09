@@ -1,2 +1,7 @@
-source 'https://rubygems.org'
-gem 'jekyll'
+source "https://rubygems.org"
+gem "jekyll"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-responsive-image"
+gem "jekyll-google-photos"
+gem "nokogiri"

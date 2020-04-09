@@ -43,7 +43,7 @@ task("processStyles", () => {
               purgecss({
                 content: [`${SITE_ROOT}/**/*.html`],
                 defaultExtractor: (content) =>
-                  content.match(/[\w-/:]+(?<!:)/g) || [],
+                  content.match(/[\w-/.:]+(?<!:)/g) || [],
               }),
               autoprefixer(),
               cssnano(),
