@@ -1,4 +1,3 @@
-import purgecss from "@fullhuman/postcss-purgecss";
 import autoprefixer from "autoprefixer";
 import browserSync from "browser-sync";
 import spawn from "cross-spawn";
