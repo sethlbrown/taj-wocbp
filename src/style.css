@@ -1,5 +1,27 @@
 /* purgecss start ignore */
 @tailwind base;
+
+#content h2 {
+    @apply text-3xl font-bold;
+}
+
+#content h3 {
+    @apply text-2xl font-semibold;
+}
+
+#content p {
+    @apply py-6;
+}
+
+#content strong {
+    @apply font-semibold;
+}
+
+#content ul {
+    @apply list-disc list-inside;
+}
+
 @tailwind components;
 /* purgecss end ignore */
+
 @tailwind utilities;
